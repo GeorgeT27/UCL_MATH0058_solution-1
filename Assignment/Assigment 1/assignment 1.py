@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sympy import Symbol, Poly,diff
 from sympy.polys.polytools import poly_from_expr,degree
+import pandas as pd
 import seaborn as sns
 def wilkinson(x):
     p=np.prod(np.array([x-i for i in range(1,21)]))
